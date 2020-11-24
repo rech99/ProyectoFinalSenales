@@ -61,7 +61,7 @@ strApretar = StringVar()
 strApretar.set("Es necesario apretar la cuerda")
 
 strAflojar = StringVar()
-strAflojar.set("Es necesario aflojar la cuerda:")
+strAflojar.set("Es necesario aflojar la cuerda")
 
 strPrimera = StringVar()
 strPrimera.set("1era (Mi)- 329.63hz")
@@ -114,8 +114,7 @@ def iniciar():
     lblSexta = Label(ventana, textvariable = strSexta)
     lblSexta.pack()
 
-    lblfrecuenciadom = Label(ventana, textvariable = frecuenciadom)
-    lblfrecuenciadom.pack()
+    
 
 
     
